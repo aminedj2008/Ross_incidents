@@ -1,0 +1,6 @@
+pandas
+plotly
+streamlit
+pandas-datareader
+streamlit_authenticator
+streamlit_gsheets 
