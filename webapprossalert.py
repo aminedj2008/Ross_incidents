@@ -23,7 +23,7 @@ usernames = ["SPS","MSPS"]
 
 
 
-file_p="https://github.com/aminedj2008/Ross_incidents/blob/main/password_key.pk1"
+file_p=Path(__file__).parent/"password_key.pk1"
 with file_p.open("rb") as file :
     hash_password = pickle.load(file)
 
